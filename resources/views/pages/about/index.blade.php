@@ -40,13 +40,20 @@
                     <div class="col-md-12">
                         <div class="testimonial-bx">
                             <div class="testimonial-thumb">
-                                <img src="assets/images/profile/dr_r_m_manih.jpg" alt="principal img">
+                                <img src="assets/images/profile/BATSKHEM_MAWLEIN.jpg" alt="principal img">
                             </div>
-                            <div class="testimonial-info">
+                            {{-- <div class="testimonial-info">
                                 <h4 class="name">Dr. R.M. Manih</h4>
                                 <p>M.Sc, Ph.D., B.C.S</p>
                                 <p>Principal, UCC</p>
+                            </div> --}}
+
+                            <div class="testimonial-info">
+                                <h4 class="name">Dr. B.MAWLEIN</h4>
+                                <p>M.A, Ph.D., B.D</p>
+                                <p>Principal, UCC</p>
                             </div>
+
                             <div class="testimonial-content">
                                 <div class="description">
                                     <div class="comment more"
