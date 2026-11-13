@@ -13,36 +13,23 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 
 // Main Pages
 Route::view('/about-us', 'pages.about.index')->name('about');
-
 Route::get('/student-corner',  [HomeController::class, 'student'])->name('student-corner');
-
-
-
 Route::get('/department', [AcademicController::class, 'departments'])->name('department');
-
 Route::get('/examination', [ExaminationController::class, 'index'])
     ->name('examination.index');    
-
-
 Route::view('/student-services', 'pages.student-services.index')->name('student-services');
-
 Route::get('/iqac', [IqacController::class, 'index'])->name('iqac');
-
 Route::view('/ssr', 'pages.ssr.index')->name('ssr');
-
 Route::view('/course', 'pages.academic.courses.index')->name('course');
-
 Route::view('/add_on_courses', 'pages.academic.add_on_courses.index')->name('add_on_courses');
-
 Route::view('/examination', 'pages.academic.examination.index')->name('examination');
 Route::view('/facilities', 'pages.facilities')->name('facilities');
-
-
 Route::get('/downloads', [DownloadController::class, 'index'])->name('downloads');
-
 Route::get('/contact_us', [ContactController::class, 'index'])->name('contact');
-
 Route::view('/research', 'pages.research')->name('research');
+
+Route::view('/platinum_jubilee', 'platinum_jubilee')
+    ->name('platinum-jubilee');
 
 /*
 |--------------------------------------------------------------------------
@@ -87,15 +74,10 @@ Route::prefix('examination')->name('examination.')->group(function () {
 Route::prefix('facilities')->name('facilities.')->group(function () {
 
     Route::view('/library', 'facilities.library')->name('library');
-
     Route::view('/hostel', 'facilities.hostel')->name('hostel');
-
     Route::view('/sports', 'facilities.sports')->name('sports');
-
     Route::view('/laboratory', 'facilities.laboratory')->name('laboratory');
-
     Route::view('/computer-centre', 'facilities.computer_centre')->name('computer_centre');
-
 });
 
 /*
@@ -107,11 +89,8 @@ Route::prefix('facilities')->name('facilities.')->group(function () {
 Route::prefix('iqac')->name('iqac.')->group(function () {
 
     Route::view('/members', 'iqac.members')->name('members');
-
     Route::view('/minutes', 'iqac.minutes')->name('minutes');
-
     Route::view('/reports', 'iqac.reports')->name('reports');
-
     Route::view('/aqar', 'iqac.aqar')->name('aqar');
 
 });
@@ -126,13 +105,9 @@ Route::prefix('iqac')->name('iqac.')->group(function () {
 Route::prefix('student-services')->name('student.')->group(function () {
 
     Route::view('/services', 'student.services')->name('services');
-
     Route::view('/counselling', 'student.counselling')->name('counselling');
-
     Route::view('/scholarships', 'student.scholarships')->name('scholarships');
-
     Route::view('/grievance-redressal', 'student.grievance_redressal')->name('grievance_redressal');
-
 });
 
 
@@ -152,14 +127,11 @@ Route::prefix('iqac')->name('iqac.')->group(function () {
 
    });
 
-
-
    /*
 |--------------------------------------------------------------------------
 | Course 
 |--------------------------------------------------------------------------
 */
-
 Route::prefix('course')->name('course.')->group(function () {
     Route::view('/add-on-courses', 'course.add_on_courses')->name('add_on_courses');
 });
