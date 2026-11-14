@@ -7,7 +7,7 @@
     <!-- Content -->
     <div class="page-content bg-white">
         <!-- inner page banner -->
-        <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner2.jpg);">
+        <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/jubilee-celebration.jpg);">
             <div class="container">
                 <div class="page-banner-entry">
                     <h1 class="text-white">Internal Quality Assurance Cell (IQAC)</h1>
@@ -213,7 +213,7 @@
                                             FEEDBACK 2020-21&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true"
                                                 style="color:#b80214;"></i></a></li>
                                     <!--<li><a href="https://www.uccollegemeghalaya.ac.in/public/iqac/others/SSS 2020-21.pdf" target="_blank">Student Satisfaction Survey&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true" style="color:#b80214;"></i></a></li>
-                                                                                                                                                            <li><a href="https://www.uccollegemeghalaya.ac.in/public/iqac/others/SSS 2020-21.pdf" target="_blank">Student Satisfaction Survey&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true" style="color:#b80214;"></i></a></li>-->
+                                                                                                                                                                <li><a href="https://www.uccollegemeghalaya.ac.in/public/iqac/others/SSS 2020-21.pdf" target="_blank">Student Satisfaction Survey&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true" style="color:#b80214;"></i></a></li>-->
                                     <li><a href="public/iqac/others/Women&#32;Cell&#32;Report_2020-21.pdf"
                                             target="_blank">Women
                                             Cell Report_2020-21&nbsp;<i class="fa fa-file-pdf-o" aria-hidden="true"
