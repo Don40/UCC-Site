@@ -6,7 +6,7 @@
     <!-- Platinum Jubilee Topbar -->
     <div class="pj-topbar">
         <div class="container">
-            <a href="{{ url('/platinum_jubilee') }}" class="pj-topbar-inner">
+            <a href="{{ route('platinum') }}" class="pj-topbar-inner">
 
                 <img src="{{ asset('assets/images/jubilee/crest-sm.png') }}" alt="Platinum Jubilee"
                     class="pj-topbar-crest">
@@ -59,7 +59,7 @@
 
                         <!-- Platinum Jubilee -->
                         <li>
-                            <a href="{{ url('/platinum_jubilee') }}">
+                            <a href="{{ route('platinum') }}">
                                 <i class="fa fa-star pj-nav-star" aria-hidden="true"></i>
                                 &nbsp;Platinum Jubilee
                             </a>
@@ -67,7 +67,7 @@
 
                         <!-- About Us -->
                         <li>
-                            <a href="{{ route('about') }}">
+                            <a href="javascript:;">
                                 About Us <i class="fa fa-chevron-down"></i>
                             </a>
 
@@ -155,7 +155,7 @@
 
                         <!-- Student Services -->
                         <li>
-                            <a href="{{ route('student-services') }}">
+                            <a href="javascript:;">
                                 Student's Services <i class="fa fa-chevron-down"></i>
                             </a>
 
@@ -173,7 +173,7 @@
 
                         <!-- IQAC -->
                         <li>
-                            <a href="{{ route('iqac') }}">
+                            <a href="javascript:;">
                                 IQAC <i class="fa fa-chevron-down"></i>
                             </a>
 
@@ -191,7 +191,7 @@
 
                         <!-- Downloads -->
                         <li>
-                            <a href="{{ route('downloads') }}">
+                            <a href="javascript:;">
                                 Downloads <i class="fa fa-chevron-down"></i>
                             </a>
 

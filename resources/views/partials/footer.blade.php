@@ -3,14 +3,18 @@
         <div class="container" style="padding-top:30px;">
             <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12 footer-col-4">
+                    <div class="widget footer-logo">
+                        <a href="https://unionchristiancollege.is-best.net"><img
+                                src="{{ asset('assets/images/ucc logo.png') }}" alt="Union Christian College"></a>
+                    </div>
                     <div class="widget">
                         <h5 class="footer-title">Reach Us</h5>
                         <p class="text-capitalize m-b20">UNION CHRISTIAN COLLEGE</p>
                         <p>P.O.- U.C.C, Umiam Khwan, Ri-Bhoi District</p>
                         <p>Pin Code-793122, Meghalaya</p>
                         <p>Email:
-                            <a href="https://www.uccollegemeghalaya.ac.in/cdn-cgi/l/email-protection" class="__cf_email__"
-                                data-cfemail="fc899f9f91999b94cecccdcbbc9b919d9590d29f9391">
+                            <a href="https://www.uccollegemeghalaya.ac.in/cdn-cgi/l/email-protection"
+                                class="__cf_email__" data-cfemail="fc899f9f91999b94cecccdcbbc9b919d9590d29f9391">
                                 [email&#160;protected]
                             </a>
                         </p>
@@ -107,8 +111,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 text-left">
-                    <a href="https://www.megsol.in" title="Reach us at - service@megsol.in or +91-7005412264"
-                        target="_blank">
+                    <a href="https://unionchristiancollege.is-best.net/iqac"
+                        title="Reach us at - drklukes@gmail.com or +91-8794253833" target="_blank">
                         Designed &amp; Developed by
                         <span class="text-orange">Dawn R Kharlukhi</span>
                     </a>

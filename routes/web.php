@@ -28,8 +28,7 @@ Route::get('/downloads', [DownloadController::class, 'index'])->name('downloads'
 Route::get('/contact_us', [ContactController::class, 'index'])->name('contact');
 Route::view('/research', 'pages.research')->name('research');
 
-Route::view('/platinum_jubilee', 'platinum_jubilee')
-    ->name('platinum-jubilee');
+Route::view('/platinum_jubilee', 'pages.platinum.index')->name('platinum');
 
 /*
 |--------------------------------------------------------------------------
